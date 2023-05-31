@@ -1,0 +1,41 @@
+{
+  "type" : "record",
+  "name" : "CustomerAvro",
+  "namespace" : "br.com.customer.kafka.avro",
+  "fields" : [
+    {"name" : "name",
+      "type" : "string"},
+
+    {"name" : "cpf",
+      "type" : "string"},
+
+    {"name" : "birthDate",
+      "type" : "string"},
+
+    {"name" : "phone",
+      "type" : "string"},
+    {"name" : "AddressAvro",
+      "type" : {
+        "type" : "record",
+        "name" : "AddressAvro",
+        "fields" : [
+          {"name" : "street",
+            "type" : "string"},
+
+          {"name" : "city",
+            "type" : "string"},
+
+          {"name" : "state_prov",
+            "type" : "string"},
+
+          {"name" : "zip",
+            "type" : "string"},
+
+          {"name" : "complement",
+            "type" : "string"},
+
+          {"name" : "number",
+            "type" : "string"}
+        ]}}
+  ]
+}
