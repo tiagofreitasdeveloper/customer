@@ -1,7 +1,7 @@
 # customer
 criação api crud customer
 
-#Comandos docker para executar a aplicação:
+# Comandos docker para executar a aplicação:
   docker build -t customer .
   
   docker-compose up -d
