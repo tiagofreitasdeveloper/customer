@@ -6,8 +6,6 @@ criação api crud customer
   
   docker-compose up -d
   
-  docker-compose exec mysql bash
-  
-  mysql -uroot -proot customer < /docker-entrypoint-initdb.d/schema.sql
-  
   docker-compose up -d
+
+# Rodar no mysql os script de criação das tabelas que se encontram dentro da pasta /scripts:
