@@ -8,4 +8,4 @@ criação api crud customer
   
   docker-compose up -d
 
-# Rodar no mysql os script de criação das tabelas que se encontram dentro da pasta /scripts:
+OBS: Rodar no mysql os script de criação das tabelas que se encontram dentro da pasta /scripts:
